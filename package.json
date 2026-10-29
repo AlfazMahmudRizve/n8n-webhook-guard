@@ -1,0 +1,44 @@
+{
+  "name": "n8n-webhook-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency HMAC-SHA256 signature verification, timing-safe validation, and circuit-breaker defense for n8n webhooks and Next.js microservices.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfazMahmudRizve/n8n-webhook-guard.git"
+  },
+  "keywords": [
+    "n8n",
+    "n8n-webhook",
+    "webhook-security",
+    "hmac-sha256",
+    "signature-verification",
+    "timing-safe",
+    "circuit-breaker",
+    "revops",
+    "automation"
+  ],
+  "author": "Alfaz Mahmud Rizve <a.m.rizve3905@gmail.com> (https://whoisalfaz.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfazMahmudRizve/n8n-webhook-guard/issues"
+  },
+  "homepage": "https://whoisalfaz.me/blog/what-is-n8n-and-how-to-set-it-up#readme"
+}
